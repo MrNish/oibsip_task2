@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(16, 3, 36);
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(49, 23, 88);
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a:hover {
+  cursor: pointer;
+  color: rgb(148, 92, 200);
+  font-size: 1.04rem;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.left {
+  font-size: 1.4rem;
+}
+.section1 {
+  justify-content: space-around;
+  display: flex;
+  margin: 23px 0;
+  height: 85vh;
+}
+.leftsection {
+  float: right;
+  font-size: 2.7rem;
+  margin: 120px 0;
+  text-align: start;
+}
+.leftsection .button {
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  width: 120px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  padding: 3px;
+  color: white;
+  background-color: rgb(98 72 137);
+}
+.leftsection .button1 {
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  width: 120px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  padding: 3px;
+  color: white;
+  background-color: rgb(98 72 137);
+}
+.leftsection .button1 a{
+  color: white;
+  text-decoration: none;
+}
+.leftsection .button:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+.leftsection .button1:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+.leftsection .button1 a:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+.text-color {
+  color: rgb(148, 92, 200);
+}
+.rightsection img {
+  width: 80%;
+  margin: 50px 0;
+}
+#element {
+  color: rgb(148, 92, 200);
+}
+
+
+hr {
+  margin: 15px;
+}
+
+.section2 {
+  margin: auto;
+  height: 30vh;
+  max-width: 73vw;
+  font-size: 2rem;
+}
+.section2 h1:hover{
+  color:rgb(148, 92, 200);
+}
+.information {
+  padding-top: 50px;
+  font-size: 1.4rem;
+}
+.clg-left {
+  float: left;
+}
+.scl-right {
+  float: right;
+}
+#degree-png,
+#scl-png {
+  padding-right: 10px;
+  height: 30px;
+  width: auto;
+}
+#clg-info p,
+#scl-info p {
+  font-size: 1.2rem;
+  padding: 4px;
+}
+.section3 {
+  font-size: 2rem;
+  margin: auto;
+  height: 88vh;
+  max-width: 73vw;
+}
+.section3 h1:hover{
+  color:rgb(148, 92, 200);
+}
+#about p {
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.logo {
+  height: 38px;
+}
+#git-logo img {
+  padding: 10px;
+  height: 70px;
+}
+#linkid-logo img {
+  padding: 10px;
+  height: 70px;
+}
